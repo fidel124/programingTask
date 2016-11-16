@@ -36,13 +36,13 @@
                 <div class="panel-heading">Avaliable users</div>
                   <div class="panel-body">
                     <div class="row">                    	   
-                    	<div col-md-12>                    		
+                    	<div class="col-md-12">                    		
                     		<ul>
                     			<li ng-repeat="user in users|startCount:(currentPage-1)* pageSize | limitTo: pageSize">
                     				<div class="row">
-                    					<div class="col-sm-2">
+                    					<div class="col-sm-2 removestyle">
                     						<div class=" img-thumbnail">
-                    							<img ng-src="{{user.owner.avatar_url}}" alt="{{image}}"  height="60"/>
+                    							<img ng-src="{{user.owner.avatar_url}}" alt="{{image}}"  height="55"/>
                     						</div><br /><br />
                     					</div>
                     					<div class="col-sm-6">                              
